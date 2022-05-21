@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+<title> Add Item</title>
+{% endblock %}
+{% block body %}
+<div class="container" />
+ <h1>Add Item</h1>
+ <form method="post">
+     <input type="text" class="form-control" name="title" id="title" placeholder="INSERT NAME">
+     <input type="number" class="form-control" name="price" id="price" placeholder="INSERT PRICE">
+     <input type="url" class="form-control" name="image" id="image" placeholder="INSERT URL OF A PIC">
+     <button class="btn btn-success" type="submit">Add Item</button>
+ </form>
+{% endblock %}
